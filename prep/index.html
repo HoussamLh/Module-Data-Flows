@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Now Showing</title>
+
+  <!-- Link to the CSS file -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Defer JS so the DOM is loaded before script runs -->
+   <!-- Link to the JS File-->
+  <script src="Script.js" defer></script>
+
+</head>
+<body>
+
+  <div id="films-grid" class="films-grid"></div>
+
+  <template id="film-card">
+    <section>
+      <!-- Add New image tag -->
+    <img data-poster src="" alt="Film poster"/>
+      <h3>Film title</h3>
+      <!-- <p data-director>Director</p> -->
+      <time>Duration</time>
+      <data data-certificate>Certificate</data>
+      <p data-description>Description</p>
+      <!-- Add New button Read more -->
+     <button class="read-more">Read more</button>
+    </section>
+  </template>
+</body>
+</html>
